@@ -10,7 +10,6 @@ function getPin() {
         return getPin();
     }
 }
-
 function generatePin() {
     const pinNumber = getPin();
     document.getElementById('pin-input').value = pinNumber;

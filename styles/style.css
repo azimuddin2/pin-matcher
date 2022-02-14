@@ -8,7 +8,6 @@ body {
 .container {
     margin-top: 30px;
 }
-
 .half-width {
     height: 570px;
     background: #222436;
@@ -31,7 +30,6 @@ body {
     outline: none;
     box-shadow: none;
 }
-
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
@@ -50,18 +48,15 @@ input[type='text']:focus {
 .numbers {
     margin: 30px 0;
 }
-
 .calc-typed {
 margin-top: 20px;
 font-size: 45px;
 text-align: right;
 color: #fff;
 }
-
 .calc-button-row {
 width: 100%;
 }
-
 .button {
 width: 20%;
 background: #425062;
