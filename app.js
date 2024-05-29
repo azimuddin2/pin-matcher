@@ -22,6 +22,8 @@ document.getElementById('key-pad').addEventListener('click', function (event) {
     if (isNaN(number)) {
         if (number == 'C') {
             typedNumberInput.value = '';
+        } else if (number == '<') {
+            typedNumberInput.value = typedNumberInput.value.slice(0, -1);
         }
     }
     else {

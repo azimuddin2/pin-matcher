@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    margin-top: 30px;
+    margin: 60px auto;
 }
 
 .half-width {
@@ -16,6 +16,7 @@ body {
     background: #222436;
     padding: 30px;
     text-align: center;
+    border-radius: 4px;
 }
 
 .generate-btn {
@@ -90,10 +91,12 @@ input[type='text']:focus {
 .submit-btn {
     border: none;
     margin-top: 20px;
-    padding: 10px 120px;
+    padding: 10px 0px;
+    width: 65%;
     border-radius: 5px;
     background: #495BC3;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .notify {
@@ -115,4 +118,27 @@ input[type='text']:focus {
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
+}
+
+
+/* responsive mobile device */
+@media screen and (max-width: 576px) {
+    .half-width {
+        margin-bottom: 12px;
+    }
+
+    .notify-section {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    input[type='text'] {
+        width: 100%;
+    }
+
+    .button {
+        width: 26%;
+        font-size: 26px;
+    }
+
 }
